@@ -9,7 +9,7 @@ sudo pacman -S --needed --noconfirm \
   mesa lib32-mesa libva-mesa-driver lib32-libva-mesa-driver libva-utils \
   vulkan-radeon lib32-vulkan-radeon amd-ucode \
   hyprland quickshell sddm kitty fish starship fastfetch mpv \
-  firefox dolphin localsend steam telegram-desktop discord vlc \
+  firefox dolphin telegram-desktop vlc \
   easyeffects obs-studio mangohud lib32-mangohud grim slurp
 
 if ! command -v yay &>/dev/null; then
