@@ -33,7 +33,6 @@ sudo tee /etc/firefox/policies/policies.json >/dev/null <<'EOF'
 }
 EOF
 
-sudo systemctl enable NetworkManager
 
 git clone https://github.com/0xbbuddha/dotfiles_nothing_os.git ~/dotfiles_nothing_os
 cd ~/dotfiles_nothing_os
